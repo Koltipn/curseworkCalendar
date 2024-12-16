@@ -14,7 +14,7 @@ TasksWindow::TasksWindow(QWidget *parent)
     , descriptionWindow(nullptr)
 {
     ui->setupUi(this);
-    this->setStyleSheet("QMainWindow { background-image: url(:/img/images/background_start.jpg); background-position: center; background-repeat: no-repeat; }");
+    this->setStyleSheet("QMainWindow { background-image: url(:/img/images/background_start.png); background-position: center; background-repeat: no-repeat; }");
     ui->title->setStyleSheet("font-size: 50px;color:white");
 
     QString buttonStyle = "QPushButton {"
